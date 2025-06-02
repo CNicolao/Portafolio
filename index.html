@@ -3,104 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mi Portafolio Profesional</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Barra de Navegación -->
+    <!-- Header/Navbar -->
     <header>
-        <nav>
-            <div class="logo">
-                <a href="#">MiPortafolio</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-            <div class="burger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portafolio</a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="nav-links">
+                    <a href="#hero">Inicio</a>
+                    <a href="#about">Sobre mí</a>
+                    <a href="#projects">Proyectos</a>
+                    <a href="#experience">Experiencia</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <!-- Sección Hero (Inicio) -->
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Hola, soy <span class="highlight">[Tu Nombre]</span></h1>
-            <p>Desarrollador Web | Diseñador UX/UI | Fotógrafo</p>
-            <a href="#proyectos" class="btn">Ver Mis Proyectos</a>
-        </div>
-        <div class="hero-img">
-            <img src="https://via.placeholder.com/400" alt="Foto de perfil">
-        </div>
-    </section>
-
-    <!-- Sección Proyectos -->
-    <section id="proyectos" class="projects">
-        <h2>Mis <span class="highlight">Proyectos</span></h2>
-        <div class="project-grid">
-            <!-- Proyecto 1 -->
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Proyecto 1">
-                <h3>Landing Page</h3>
-                <p>Diseño y desarrollo de una landing page para una marca.</p>
-                <a href="#" class="btn-small">Ver Detalles</a>
-            </div>
-            <!-- Proyecto 2 -->
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Proyecto 2">
-                <h3>App Móvil</h3>
-                <p>Aplicación de tareas desarrollada con React Native.</p>
-                <a href="#" class="btn-small">Ver Detalles</a>
-            </div>
-            <!-- Proyecto 3 -->
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Proyecto 3">
-                <h3>E-commerce</h3>
-                <p>Tienda online con carrito de compras y pasarela de pago.</p>
-                <a href="#" class="btn-small">Ver Detalles</a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hola, soy <span>Camilo Nicolao</span></h1>
+                    <p>Soy ingeniero en informatica especialista en soporte ti , desarrollo y diseño ux/ui</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="cta-button">Contáctame</a>
+                        <a href="#projects" class="cta-button secondary-button">Ver proyectos</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/camilo-nicolao-donoso-3a1798246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/CNicolao"><i class="fab fa-github"></i></a>
+                        <a href="http://wa.me/56934808968"><i class="fab fa-whatsapp"></i></i></a>
+                        <a href="https://www.tiktok.com/@locosxelanime?_t=ZM-8wrGblPjQ8c&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="/Img/imagen de perfil.jpg" alt="camilo nicolao">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección Sobre Mí -->
-    <section id="sobre-mi" class="about">
-        <div class="about-img">
-            <img src="https://via.placeholder.com/400" alt="Sobre mí">
-        </div>
-        <div class="about-content">
-            <h2>Sobre <span class="highlight">Mí</span></h2>
-            <p>
-                Soy un apasionado por el desarrollo web y el diseño. Me especializo en crear experiencias digitales intuitivas y atractivas. 
-                Tengo experiencia en HTML, CSS, JavaScript y frameworks como React.
-            </p>
-            <a href="#" class="btn">Descargar CV</a>
+    <!-- Sobre mí -->
+    <section id="about" class="animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/Img/Imagen de perfil 2.jpg" alt="Sobre mí">
+                </div>
+                <div class="about-text">
+                    <h3>¡Conóceme mejor!</h3>
+                    <p>Mi enfoque proactivo y habilidades técnicas avanzadas me posicionan como un profesional competente y comprometido con el éxito operativo y la eficiencia tecnológica en el entorno empresarial participando en proyectos de colaboración que han terminado en éxito.</p>
+                  
+                    <div class="skills">
+                        <h4>Mis habilidades</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Diseño UI/UX</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Sección Contacto -->
-    <section id="contacto" class="contact">
-        <h2>Contáct<span class="highlight">ame</span></h2>
-        <form>
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo Electrónico" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button type="submit" class="btn">Enviar Mensaje</button>
-        </form>
-        <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+    <!-- Proyectos -->
+    <section id="projects" class="animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Img/Proyecto 1.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema de ticket</h3>
+                        <p>Realice un sistema de ticket de soporte orientado a las peticiones de usuarios en empresas varias , resuelve el problema de la espera por una solucion prolongada, se realizo en python con django,html,css,mysql.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">Mysql</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">html</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> https://github.com/CNicolao/proyecto-de-titulo</a>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience" class="animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Experiencia</h2>
+            <div class="timeline">
+                <!-- Experiencia 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">febrero 2023 a Actualidad</span>
+                        <h3 class="timeline-title">Consultor Ti </h3>
+                        <span class="timeline-company">Jar Consultores</span>
+                        <p>Consulto en Tecnología de la información mis funciones principal son:
+
+                            Brindar asesoría a diversas empresas en Santiago. 
+                            Apoyo al personal en la gestión integral de proyectos. 
+                            Especialista en la resolución de problemas informáticos, ofreciendo soluciones que van desde asesoramiento hasta la instalación y configuración de equipos. 
+                            Encargado de habilitar las oficinas, asegurando un entorno de trabajo eficiente, así como la implementación de sistemas de cámaras para fortalecer la seguridad en las instalaciones de la empresa.
+                            </p>
+                    </div>
+                </div>
+
+                <!-- Experiencia 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">enero 2017 – Julio 2021
+                            </span>
+                        <h3 class="timeline-title">Vendedor </h3>
+                        <span class="timeline-company">Sodimac</span>
+                        <p>Función principal vender y reponer en las distintas áreas del local.</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p>¿Tienes un proyecto en mente o quieres trabajar juntos? No dudes en contactarme.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 MiPortafolio. Todos los derechos reservados.</p>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Camilo Nicolao</a>
+                <div class="footer-links">
+                    <a href="#hero">Inicio</a>
+                    <a href="#about">Sobre mí</a>
+                    <a href="#projects">Proyectos</a>
+                    <a href="#experience">Experiencia</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+                <div class="footer-social">
+                      <a href="https://www.linkedin.com/in/camilo-nicolao-donoso-3a1798246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/CNicolao"><i class="fab fa-github"></i></a>
+                        <a href="http://wa.me/56934808968"><i class="fab fa-whatsapp"></i></i></a>
+                        <a href="https://www.tiktok.com/@locosxelanime?_t=ZM-8wrGblPjQ8c&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <p class="copyright">© <span id="year"></span> www.camilonicolao.cl Todos los derechos reservados.</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
