@@ -127,6 +127,30 @@ nav {
     padding-top: 80px;
     background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
 }
+/* Estilos para tabletas (768px - 992px) */
+@media (max-width: 992px) {
+    #hero {
+        height: auto;
+        min-height: auto;
+        padding: 100px 0 60px;
+    }
+    
+    .hero-content {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    
+    .hero-text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-image {
+        margin-bottom: 1.5rem;
+    }
+}
 
 .hero-content {
     display: flex;
